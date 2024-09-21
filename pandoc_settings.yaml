@@ -1,0 +1,16 @@
+---
+standalone: true
+css: "../pandoc/style.css"
+input-file: "intro.md"
+from: commonmark_x
+to: pdf
+pdf-engine: wkhtmltopdf
+title: "Collection Title"
+include-after-body:
+   - "poem_a.md"
+   - "poem_b.md"
+   - "poem_c.md"
+   - "poem_d.md"
+   - "closing.md"
+output-file: "collection.pdf"
+---
