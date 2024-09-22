@@ -1,0 +1,4 @@
+PyYAML~=6.0.2
+setuptools~=57.0.0
+wheel~=0.36.2
+pandoc~=2.4
